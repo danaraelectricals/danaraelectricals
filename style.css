@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+header.hero {
+  background: #000000;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.hero-content p {
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #1e90ff;
+  padding-bottom: 10px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+}
