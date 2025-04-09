@@ -1,42 +1,42 @@
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
-  color: #ffffff;
-  scroll-behavior: smooth;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: #fff;
 }
-header.hero {
-  background: #000000;
-  padding: 100px 20px;
-  text-align: center;
+.hero {
+    text-align: center;
+    padding: 60px 20px;
 }
-.hero-content h1 {
-  font-size: 3em;
-  margin: 0;
-}
-.hero-content p {
-  font-size: 1.2em;
-  margin: 10px 0 20px;
-}
-.btn {
-  padding: 10px 20px;
-  background-color: #1e90ff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
 }
 section {
-  padding: 60px 20px;
-  max-width: 800px;
-  margin: auto;
+    padding: 40px 20px;
 }
 h2 {
-  border-bottom: 2px solid #1e90ff;
-  padding-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
 }
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #111;
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+.gallery .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 8px;
 }
